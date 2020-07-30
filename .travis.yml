@@ -6,7 +6,6 @@ cache: npm
 branches:
   only:
     - master # build master branch only
-  master: true
 script:
   - hexo generate # generate static files
 deploy:
@@ -16,5 +15,5 @@ deploy:
   keep-history: true
   target_branch: master
   on:
-    branch: gh-pages
+    branch: master
   local-dir: public
