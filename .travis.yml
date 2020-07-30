@@ -6,7 +6,7 @@ cache: npm
 branches:
   only:
     - gh-pages # build master branch only
-  gh_pages: true
+  gh-pages: true
 script:
   - hexo generate # generate static files
 deploy:
